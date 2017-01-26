@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/display/display",
+    "pages/collection/collection"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Miss Flower",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor": "grey",
+    "color": "black",
+    "selectedColor": "green",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "https://raw.githubusercontent.com/Hongwing/MiniApp/master/images/icons/home_dark.png",
+      "selectedIconPath": "https://raw.githubusercontent.com/Hongwing/MiniApp/master/images/icons/home.png",
+      "text": "首页"
+    },{
+      "pagePath": "pages/display/display",
+      "iconPath": "https://raw.githubusercontent.com/Hongwing/MiniApp/master/images/icons/flower_dark.png",
+      "selectedIconPath": "https://raw.githubusercontent.com/Hongwing/MiniApp/master/images/icons/flower.png",
+      "text": "花语"
+    },{
+      "pagePath": "pages/collection/collection",
+      "iconPath": "https://raw.githubusercontent.com/Hongwing/MiniApp/master/images/icons/me_dark.png",
+      "selectedIconPath": "https://raw.githubusercontent.com/Hongwing/MiniApp/master/images/icons/me.png",
+      "text": "收藏"
+    }]
+  }
+}

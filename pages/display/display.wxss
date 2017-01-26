@@ -1,0 +1,27 @@
+.container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center
+}
+.flower {
+    width: 150px;
+    height: 100px;
+    position: relative;
+    padding: 10px ;
+    margin: 0 auto;    
+}
+.flower-image {
+    position: absolute;
+    width: 50%;
+    height: 45%;
+    left: 35px;
+    
+}
+.little-text {
+    position: absolute;
+    bottom: 25px;
+    left: 60px;
+    font-size: 12pt;
+}

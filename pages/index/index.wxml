@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  
+  <view class="searchView">
+    <button type="primary" form-type="submit" bindtap="searchFlowerInfo" plain="true" class="searchBtn">搜索</button>
+  </view><!-- end 搜索背景 -->
+
+  <view class="recentSearch">
+    <text class="littleText">最近搜索</text>
+    <view class="displayArea">
+      <button class="tagBtn">水仙</button>
+      <button class="tagBtn">雏菊</button>
+      <button class="tagBtn">山茶花</button>
+      <button class="tagBtn">牡丹花</button>
+      <button class="tagBtn">粉玫瑰</button>
+    </view>
+  </view><!-- end 最近搜素 -->
+
+</view>

@@ -1,0 +1,17 @@
+<!-- display -->
+<view class="container">
+    <view class="grid-display">
+        <view wx:key="*this" wx:for="{{flowerArray}}">
+            <view wx:if="{{index < 10}}">
+                <template is="displayFlower" data="{{...item}}"/>
+            </view>
+        </view>
+    </view>
+</view>
+
+<template name="displayFlower">
+    <view class="flower">
+        <image src="{{url}}" class="flower-image"></image>
+        <text class="little-text">{{name}}</text>
+    </view>
+</template>
